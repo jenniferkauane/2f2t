@@ -1,3 +1,3 @@
-# Segundo Trimestre - mobile.first
+# Segundo Trimestre-mobile-first
 
-Jennifer Kauane - N-19
+Estela-13
