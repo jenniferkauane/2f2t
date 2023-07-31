@@ -115,6 +115,20 @@ ul{
     transform: rotate(45deg);
     top:0;
 }
+.conteudo-droga {
+    width: 90vw;
+    padding: 5px;
+}
+
+#img-def {
+    display: none;
+}
+.descricao {
+    width: 100vw;
+}
+.img-definicao {
+    width: 100%;
+}
 
 
 .rodape {
@@ -134,7 +148,7 @@ ul{
     background-color: white;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 820px) {
     .nav{
         max-height: none;
         top: 0;
@@ -160,15 +174,34 @@ ul{
         width: 15vh;
         margin: 5px;
     }
-    .conteudo {
+    .conteudo-droga {
+        display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-areas: 
-         "geral geral";
-    }
+        grid-template-areas: "def" "def";
+        }
+       .definicao {
+        display: flex;
+        width: 100vw;
+       }
+       .descricao {
+        height: 100%;
+        padding: 50px;
+        width: 70vw;
+       }
+       .img-definicao{
+        display: block;
+        text-align: end;
+        height: 30vh;
+        width: 30vw;
+       }
+       #img-def {
+        display: block;
+        width: 20vw;
+       }
 
 }
 
-@media (min-width: 1228px) {
+@media (min-width: 1024px) {
     .nav{
         max-height: none;
         top: 0;
@@ -194,10 +227,9 @@ ul{
         width: 15vh;
         margin: 5px;
     }
-    .conteudo {
+    .conteudo-droga {
         grid-template-columns: 33% 34% 33%;
-        grid-template-areas: 
-         "geral geral geral";
+        grid-template-areas: "def" "def" "def";
     }
 
 }
