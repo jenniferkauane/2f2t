@@ -157,6 +157,10 @@ div[class^="item-"]{
 .info {
     display: grid;
 }
+#para {
+    font-size: 14px;
+}
+
 
 @media (min-width: 820px) {
     .nav{
